@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std ;
+int main ()
+{
+	int num;
+	cout<<" Enter the number u want you check : ";
+	cin>>num;
+	if (num%2==0)
+	{
+		cout<<"/n The number is an even number ";
+	}
+	else if( num%2!=0)
+	{
+		cout<<"/n The number is an odd number ";
+	}
+	else
+	{
+		cout <<"Invalid input";
+	}
+	return 0;
+}
