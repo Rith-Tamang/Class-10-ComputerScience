@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+	int fnum , lnum;
+	cout<<" Enter the last number ";
+	cin>> lnum;
+	for(fnum=1; fnum<= lnum;fnum++)
+	{
+		cout<<fnum<<",";
+	}
+	return 0;
+}
