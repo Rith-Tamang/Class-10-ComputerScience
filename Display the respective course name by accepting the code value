@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	char cod;
+	cout<<"Enter the corse code c for certificate course/m for masters degree course/p for post graduate :";
+	cin>>cod;
+	switch(cod)
+	{
+		case'c':
+		cout<< "You have sleceted certificate course. The course fee is rs.3500"<<endl;
+		break;
+		case'm':
+		cout<<"You have selected masters degree . The course fee is rs.5500"<<endl;
+		break;
+		case'p':
+		cout<<"You have selected post graduate degree .The course fee is rs.8500"<<endl;
+		break;
+		default:
+		printf("\nCode is invalid..try again");
+	}
+}
